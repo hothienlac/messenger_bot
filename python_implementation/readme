@@ -1,0 +1,2 @@
+ ssh -q -N -i "C:\Users\hothi\.ssh\hothienlac.pem" -R 3456:127.0.0.1:3456 ubuntu@13.229.129.119
+ 
