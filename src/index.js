@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 
 app.get('/', (req, res) => {
-  return res.status(httpStatus.OK).json({message: 'App is working'});
+  return res.status(200).json({message: 'App is working'});
 });
 
 app.use(express.urlencoded({extended: true}));
